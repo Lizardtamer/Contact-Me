@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Me</title>
+    </head>
+    <body>
+        <h1>Contact Me</h1>
+        <form action="mailto:monconsul@mongolianembassy.us" method="post">
+            <div>
+                <label for="fname">Name</label><br>
+                <input type="text" name="fname" id="fname" placeholder="Goober" required><br>
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="goober@gmail.com">
+            </div>
+            <div>
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" placeholder="blah blah blah" rows="10" cols="40"></textarea>
+            </div>
+            <div>
+                <button type="submit" name="sbutton" id="sbutton">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
+
+<!--
+[x] Display a header that says 'Contact Me' 
+[x] Display a form with a form tag
+  [x] Accept the users name
+  [x] Accept the users message
+  [x] Add a submit button
+[] When user clicks submit, the form should open the users default email app.-->
